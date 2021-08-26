@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+.titulo-principal {
+
+    color: #4edb84;
+    font-family: 'Rampart One', Arial, Helvetica, sans-serif, cursive;
+
+}
+
+.conteudo-principal {
+
+    height: 300px;
+    background-image: url('https://images2.alphacoders.com/948/thumb-1920-948539.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}

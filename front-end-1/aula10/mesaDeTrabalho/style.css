@@ -1,0 +1,28 @@
+.banner {
+
+    background-image: url('https://i2.wp.com/pupilasembrasas.com.br/wp-content/uploads/2016/07/One-Piece.png?fit=1280%2C720&ssl=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 600px;
+    width: 1280px;
+    padding: 200px 30px 300px;
+    margin: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    border: solid 5px coral;
+    border-radius: 30px;
+
+}
+
+h1 {
+
+    color: rgb(255, 115, 0);
+
+}
+
+h2 {
+
+    color: rgb(0, 0, 0);
+
+}

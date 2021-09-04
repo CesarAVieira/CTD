@@ -1,0 +1,24 @@
+.box {
+
+    width: 250px;
+    height: 250px;
+
+}
+
+.first-box {
+
+    background-color: blue;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    z-index: 2;
+
+}
+
+.second-box {
+
+    background-color: blueviolet;
+    position: absolute;
+    z-index: 3;
+
+}

@@ -1,0 +1,33 @@
+body {
+
+    background-color: rgb(102, 13, 102);
+
+}
+
+img {
+
+    width: 200px;
+}
+
+form {
+
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    margin: 300px auto;
+    border-radius: 10px;
+
+}
+
+div {
+
+    padding: 10px;
+
+}
+
+input, textarea, select {
+
+    border-radius: 3px;
+
+}

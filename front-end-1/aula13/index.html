@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+
+        <h1>Formulario de Cadastro</h1>
+
+        <div>
+            <label for="fullName">Nome completo</label>
+            <input placeholder="Insira o seu nome" type="text" name="fullName" id="fullName">
+        </div>
+
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div>
+            <label for="birthDate">Data de nascimento</label>
+            <input type="date" name="birthDate" id="birthDate">
+        </div>
+
+        <div>
+            <label for="password">Senha</label>
+            <input type="password" required name="password" id="password">
+        </div>
+
+        <h2>Localizacao</h2>
+
+        <div>
+            <label for="city">Cidade</label>
+            <select name="city" id="city">
+                <option value="1">Sao Paulo</option>
+                <option value="2">Curitiba</option>
+                <option value="3">Rio de Janeiro</option>
+                <option value="4">Santa Catarina</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="observation">Observacao</label>
+            <textarea name="observation" id="observation" cols="30" rows="10"></textarea>
+        </div>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar o formulario</button>
+
+    </form>
+
+</body>
+</html>

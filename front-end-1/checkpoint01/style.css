@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body {
+
+    background-image: url('https://frallonardocontabilidade.com.br/wp-content/uploads/2021/04/campo-largo-parana.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+header {
+
+    background-color: coral;
+    padding: 20px 0px;
+    text-align: center;
+
+}
+
+h1 {
+
+    font-family: 'Noto Sans KR', Arial, cursive;
+    font-size: 40px;
+    color: white;
+
+}
+
+h2 {
+
+    font-family: 'Abel', Arial, cursive;
+    text-align: center;
+
+}
+
+.texto {
+
+    font-family: cursive;
+    background-color: rgb(243, 220, 212);
+    width: 600px;
+    height: 400px;
+    margin: 50px;
+    padding: 3px 10px;
+
+}
+
+iframe {
+    
+    display: block;
+    margin: 0 auto;
+
+}
+
+div {
+
+    background-color: white;
+    padding: 20px 350px;
+    font-family: Abel;
+
+}
+
+.youtube img {
+    
+    max-width: 50px;
+    margin: 0 auto;
+    margin-left: 540px;
+
+}
+
+.instagram img {
+
+    max-width: 50px;
+    margin: 0px 10px;
+
+}

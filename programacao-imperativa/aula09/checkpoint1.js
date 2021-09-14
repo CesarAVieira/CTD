@@ -1,3 +1,4 @@
+
 function login(senha) {
     if (senha == 1234) {
         return console.log("ACESSO PERMITIDO");
@@ -15,8 +16,9 @@ function tamanho(a, b) {
         return console.log(a, "é maior que", b);
     } else if (a < b) {
         return console.log(a, "é menor que", b);
-    } else (a == b)
+    } else {
     return console.log(a, "é igual a", b);
+    }
 }
 
 tamanho(5, 15);
@@ -61,5 +63,5 @@ switch (mes) {
         break;
 }
 
-let senha = 1234
-senha == 1234 ? console.log("ACESSO PERMITIDO") : console.log("ACESSO NEGADO");
+let senhaRapida = 1234
+senhaRapida == 1234 ? console.log("ACESSO PERMITIDO") : console.log("ACESSO NEGADO");

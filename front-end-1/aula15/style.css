@@ -1,0 +1,68 @@
+button {
+
+    border: 0;
+    padding: 12px 24px;
+    background-color: rgb(30, 95, 73);
+    color: azure;
+    border-radius: 12px;
+    transition-duration: 1s;
+
+}
+
+button:hover {
+
+    border-radius: 24px;
+    background-color: violet;
+
+}
+
+a:link {
+
+    color: red;
+
+}
+
+a:visited {
+
+    color: green;
+
+}
+
+input:focus {
+
+    background-color: indianred;
+    transition-duration: .6;
+
+}
+
+ul {
+
+    list-style: none;    
+
+}
+
+ul li {
+
+    margin: 12px 0;
+
+}
+
+ul li:nth-child(2n) {
+
+    color: red;
+
+}
+
+p::before {
+
+    content: 'Paragrafo';
+    background-color: red;
+
+}
+
+p::after {
+
+    content: 'Fim do Paragrafo';
+    background-color: green;
+
+}

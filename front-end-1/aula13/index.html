@@ -12,42 +12,86 @@
 
         <h1>Formulario de Cadastro</h1>
 
-        <div>
-            <label for="fullName">Nome completo</label>
-            <input placeholder="Insira o seu nome" type="text" name="fullName" id="fullName">
-        </div>
+        <fieldset>
 
-        <div>
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email">
-        </div>
+            <legend>Dados pessoais</legend>
+            <div>
+                <label for="fullName">Nome completo</label>
+                <input placeholder="Insira o seu nome" type="text" name="fullName" id="fullName">
+            </div>
+    
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
+            </div>
+    
+            <div>
+                <label for="birthDate">Data de nascimento</label>
+                <input type="date" name="birthDate" id="birthDate">
+            </div>
+    
+            <div>
+                <label for="password">Senha</label>
+                <input type="password" required name="password" id="password">
+            </div>
 
-        <div>
-            <label for="birthDate">Data de nascimento</label>
-            <input type="date" name="birthDate" id="birthDate">
-        </div>
+            <div>
+                <label for="juridico">Pessoa Juridica</label>
+                <input type="radio" checked name="person" id="juridico" value="pessoaJuridica">
 
-        <div>
-            <label for="password">Senha</label>
-            <input type="password" required name="password" id="password">
-        </div>
+                <label for="fisica">Pessoa Fisica</label>
+                <input type="radio" name="person" id="fisica" value="pessoaFisica">
+            </div>
 
-        <h2>Localizacao</h2>
+            <div>
+            <input type="checkbox" name="PersonJ" id="personJ">
+            <label for="personJ">Pessoa Juridica?</label>
+            </div>
+    
+        </fieldset>
 
-        <div>
-            <label for="city">Cidade</label>
-            <select name="city" id="city">
-                <option value="1">Sao Paulo</option>
-                <option value="2">Curitiba</option>
-                <option value="3">Rio de Janeiro</option>
-                <option value="4">Santa Catarina</option>
-            </select>
-        </div>
+        <fieldset>
 
-        <div>
-            <label for="observation">Observacao</label>
-            <textarea name="observation" id="observation" cols="30" rows="10"></textarea>
-        </div>
+            <legend>Localizacao</legend>
+
+            <div>
+                <label for="city">Cidade</label>
+                <select name="city" id="city">
+                    <optgroup label="Sudeste">
+                        <option value="1">Sao Paulo</option>
+                        <option value="2">Curitiba</option>
+                        <option value="3">Rio de Janeiro</option>
+                        <option value="4">Santa Catarina</option>
+                    </optgroup>
+                    <optgroup label="Nordeste">
+                        <option value="1">Sao Paulo</option>
+                        <option value="2">Curitiba</option>
+                        <option value="3">Rio de Janeiro</option>
+                        <option value="4">Santa Catarina</option>
+                    </optgroup>
+                </select>
+            </div>
+
+            <div>
+                <label for="bairro">Bairros</label>
+                <input list="bairros" name="bairro" id="bairro">
+                <datalist id="bairros">
+                    <option value="Edge"></option>
+                    <option value="Firefox"></option>
+                    <option value="Chrome"></option>
+                    <option value="Opera"></option>
+                    <option value="Firefox"></option>
+                </datalist>
+            </div>
+    
+            <div>
+                <label for="observation">Observacao</label>
+                <textarea name="observation" id="observation" cols="30" rows="10"></textarea>
+            </div>
+
+        </fieldset>
+
+        
 
         <button type="submit">Enviar</button>
         <button type="reset">Limpar o formulario</button>

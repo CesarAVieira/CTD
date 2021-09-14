@@ -61,5 +61,5 @@ switch (mes) {
         break;
 }
 
-senha = 1234
+let senha = 1234
 senha == 1234 ? console.log("ACESSO PERMITIDO") : console.log("ACESSO NEGADO");

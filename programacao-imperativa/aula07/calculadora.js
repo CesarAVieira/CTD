@@ -43,9 +43,23 @@ console.log(divisao(0, 6));
 
 console.log(quadradoDoNumero(8));
 
-console.log(mediaDeTresNumeros(2, 4, 6));
+console.log(mediaDeTresNumeros(20, 40, 140));
 
 console.log(calculaPorcentagem(300, 15));
 
 console.log(geradorDePorcentagem(2, 200));
 
+let valor1 = 10;
+let valor2 = valor1 / 3;
+let valor3 = valor2 * 3;
+valor1 = valor1 % 2 + 5;
+valor1 = valor1 / 2;
+
+if (valor1 != 20) {
+    valor1 = 20;
+    valor2 = valor2 * valor2;
+    }else {
+    valor1 = valor1 - 1;
+}
+
+console.log("valor1:", valor1, "valor2:", valor2, "valor3", valor3);

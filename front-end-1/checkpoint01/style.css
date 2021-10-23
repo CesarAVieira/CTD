@@ -213,3 +213,24 @@ nav a:hover {
     margin: 0 20px;
 
 }
+
+.form {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-container {
+
+    width: 600px;
+    background-color: orange;
+    padding: 10px 10px;
+
+}
+
+.form-container form {
+
+
+
+}
